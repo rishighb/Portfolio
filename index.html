@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukka Rishi Naga Sai | Data Scientist & ML Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="profile">
+                <div class="avatar">RN</div>
+                <h2>Mukka Rishi Naga Sai</h2>
+                <p class="subtitle">Data Scientist & ML Engineer</p>
+            </div>
+            
+            <nav class="nav-links">
+                <a href="#home" class="active"><i class='bx bx-home-alt'></i> <span>Home</span></a>
+                <a href="#projects"><i class='bx bx-briefcase'></i> <span>Projects</span></a>
+                <a href="#skills"><i class='bx bx-code-alt'></i> <span>Skills</span></a>
+                <a href="#education"><i class='bx bx-book-open'></i> <span>Education</span></a>
+                <a href="#certifications"><i class='bx bx-certification'></i> <span>Certifications</span></a>
+                <a href="#cv"><i class='bx bx-file'></i> <span>CV / Resume</span></a>
+                <a href="#contact"><i class='bx bx-message-square-detail'></i> <span>Contact</span></a>
+            </nav>
+
+            <div class="social-links">
+                <a href="mailto:rishinagasaimukka@gmail.com" title="Email"><i class='bx bx-envelope'></i></a>
+                <a href="https://linkedin.com/in/rishi-naga-sai-mukka" target="_blank" title="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/rishighb" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="theme-toggle-wrapper">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                    <i class='bx bx-sun'></i> <span>Light Mode</span>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content-area">
+            <!-- Home Section -->
+            <section id="home" class="section hero-section">
+                <div class="hero-banner"></div>
+
+                <div class="hero-content">
+                    <h1 class="gradient-text-hero">I'm Rishi.</h1>
+                    <h2 class="typewriter-container">I build <span id="typewriter"></span></h2>
+
+                    <p class="bio">
+                        Turning messy data into meaningful intelligence. I design ML systems, ETL pipelines, and scalable applications that actually solve problems.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="mailto:rishinagasaimukka@gmail.com" class="btn primary">Get In Touch</a>
+                        <a href="#projects" class="btn secondary">View Work</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+                <div class="section-header">
+                    <h2>Featured Projects</h2>
+                    <p>Recent work and explorations.</p>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span>Feb 2026</span>
+                                <a href="https://github.com/rishighb/Renewable-Energy-Generation-Forecast" target="_blank"><i class='bx bx-link-external'></i> GitHub</a>
+                            </div>
+                            <h3>Renewable Energy Generation Forecast</h3>
+                            <p>Engineered an end-to-end ML pipeline processing a 400+ page global report to extract and forecast energy data across 200+ countries, reducing manual handling by 90%.</p>
+                            <ul>
+                                <li>Built RF and Linear Regression models predicting till 2030 across 7 regions.</li>
+                                <li>Developed interactive Streamlit dashboard for historical trends.</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span>Python</span><span>Pandas</span><span>Scikit-Learn</span><span>Streamlit</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span>Feb 2026</span>
+                                <a href="https://github.com/rishighb/Aviation-Flight-Data-ETL-Pipeline" target="_blank"><i class='bx bx-link-external'></i> GitHub</a>
+                            </div>
+                            <h3>Aviation Flight Data ETL Pipeline</h3>
+                            <p>End-to-end robust pipeline extracting, transforming, and loading aviation datasets into PostgreSQL, improving analytics retrieval by 30%.</p>
+                            <ul>
+                                <li>Integrated AWS S3 and automated validation checks.</li>
+                                <li>Optimized queries via indexing and star schema modeling.</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span>Python</span><span>SQL</span><span>PostgreSQL</span><span>AWS S3</span><span>Power BI</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span>Jul 2025</span>
+                                <a href="https://github.com/rishighb/EDA-of-Indian-Population-Demographics-" target="_blank"><i class='bx bx-link-external'></i> GitHub</a>
+                            </div>
+                            <h3>EDA of Indian Demographics</h3>
+                            <p>Robust cleaning and preprocessing for Census datasets. Illustrated regional disparities through dynamic visuals.</p>
+                            <ul>
+                                <li>Analyzed 30+ demographic variables identifying key socioeconomic correlations.</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span>Python</span><span>Seaborn</span><span>SciPy</span><span>StatsModels</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span>Jul 2025</span>
+                                <a href="https://github.com/rishighb/code-companion" target="_blank"><i class='bx bx-link-external'></i> GitHub</a>
+                            </div>
+                            <h3>Code Companion</h3>
+                            <p>Designed and prototyped a mobile application with user-centric platform featuring intuitive navigation and seamless user experience.</p>
+                            <ul>
+                                <li>Conducted user research to develop a user-centric platform with intuitive navigation.</li>
+                                <li>Led the complete UI/UX design lifecycle from conceptualization and wireframing to high-fidelity prototype development.</li>
+                                <li>Completed the summer training program with a final 'A' grade in design thinking principles.</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span>Figma</span><span>Balsamiq</span><span>Google Forms</span><span>UI/UX Design</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section">
+                <div class="section-header">
+                    <h2>Technical Skills</h2>
+                    <p>My toolbelt and core competencies.</p>
+                </div>
+                
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Languages & CS Fundamentals</h3>
+                        <div class="tags">
+                            <span>Python</span><span>C</span><span>Java</span><span>Dart</span><span>SQL</span><span>Data Structures & Algorithms (DSA)</span><span>Object-Oriented Programming (OOP)</span><span>OS</span><span>DBMS</span><span>Computer Networks</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Domain Skills & Frameworks</h3>
+                        <div class="tags">
+                            <span>Data Science & ML</span><span>Responsive UI</span><span>Data Visualization (Tableau, Power BI)</span><span>Statistical Modeling</span><span>Hybrid Mobile App Development (Flutter)</span><span>Software Engineering</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <!-- Education Section -->
+             <section id="education" class="section">
+                <div class="section-header">
+                    <h2>Education Timeline</h2>
+                </div>
+                <div class="timeline">
+                    <!-- BTech -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="date">2023 — Present</span>
+                            <h3>Lovely Professional University</h3>
+                            <h4>B.Tech in Computer Science and Engineering (Data Science with ML)</h4>
+                            <p>CGPA: 7.53 | Phagwara, Punjab</p>
+                        </div>
+                    </div>
+                    <!-- Junior College -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="date">2022 — 2023</span>
+                            <h3>Bhashyam Junior College</h3>
+                            <h4>12th with Science (92.9%)</h4>
+                            <p>Rajahmundry, Andhra Pradesh</p>
+                        </div>
+                    </div>
+                    <!-- Public School -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="date">2020 — 2021</span>
+                            <h3>Bhashyam Public School</h3>
+                            <h4>10th (99%)</h4>
+                            <p>Rajahmundry, Andhra Pradesh</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section id="certifications" class="section">
+                <div class="section-header">
+                    <h2>Certifications</h2>
+                </div>
+                <div class="cert-grid">
+                    <a href="https://drive.google.com/file/d/11vsFuhbB_XNotXCOBANs4oufj8UvCwMI/view" class="cert-card" target="_blank">
+                        <i class='bx bx-palette'></i>
+                        <div class="cert-info">
+                            <h3>Design Thinking & Figma</h3>
+                            <p>LPU | July 2025</p>
+                        </div>
+                    </a>
+                    <a href="https://www.hackerrank.com/certificates/c985720706b7" class="cert-card" target="_blank">
+                        <i class='bx bxl-java'></i>
+                        <div class="cert-info">
+                            <h3>Java Programming Certificate</h3>
+                            <p>HackerRank | Mar 2026</p>
+                        </div>
+                    </a>
+                    <a href="https://www.udemy.com/certificate/UC-d306ae43-64e2-412b-b8b1-93ccff231686/" class="cert-card" target="_blank">
+                        <i class='bx bx-data'></i>
+                        <div class="cert-info">
+                            <h3>Ultimate MySQL Bootcamp</h3>
+                            <p>Udemy | Mar 2024</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <!-- CV Section -->
+            <section id="cv" class="section">
+                <div class="section-header">
+                    <h2>Curriculum Vitae</h2>
+                    <p>My full professional background and academic record.</p>
+                </div>
+                <div class="cv-container">
+                    <div class="cv-card">
+                        <div class="cv-icon"><i class='bx bxs-file-pdf'></i></div>
+                        <div class="cv-details">
+                            <h3>Mukka Rishi Naga Sai - Resume</h3>
+                            <p>Full Document &bull; Features comprehensive academic, project, and skill details.</p>
+                        </div>
+                        <a href="generL CV PERMENENT.pdf" download="Mukka_Rishi_Naga_Sai_CV.pdf" class="btn primary download-btn"><i class='bx bx-download'></i> Download CV</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <div class="section-header text-center">
+                    <h2 class="gradient-text">Contact Me</h2>
+                    <p>Let's discuss how we can work together</p>
+                </div>
+                
+                <div class="contact-wrapper">
+                    <!-- Left Side: Info & Form -->
+                    <div class="contact-form-side">
+                        <div class="contact-info-list">
+                            <h3 class="contact-card-title">Contact Information</h3>
+                            <ul>
+                                <li><i class='bx bx-envelope'></i> Email: rishinagasaimukka@gmail.com</li>
+                                <li><i class='bx bx-phone'></i> Phone: +91-7989810279</li>
+                                <li><i class='bx bx-map'></i> Location: Rajahmundry, Andhra Pradesh</li>
+                            </ul>
+                        </div>
+                        
+                        <form class="contact-form" action="https://formsubmit.co/rishinagasaimukka@gmail.com" method="POST">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" name="Name" placeholder="Your name" required>
+                            </div>
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="email" name="Email" placeholder="Your email" required>
+                            </div>
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="text" name="Subject" placeholder="Subject of your message" required>
+                            </div>
+                            <div class="input-group">
+                                <label>Message</label>
+                                <textarea rows="4" name="Message" placeholder="Let me know how I can help you..." required></textarea>
+                            </div>
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="https://yourdomain.com/success.html">
+                            <button type="submit" class="btn primary form-submit" id="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+
+                    <!-- Right Side: Response Card -->
+                    <div class="contact-stats-side">
+                        <div class="response-card">
+                            <h3>Response Time</h3>
+                            <p class="response-desc">I typically respond to all inquiries within 24 hours. Looking forward to connecting with you!</p>
+                            
+                            <div class="stats-row">
+                                <div class="stat-item">
+                                    <h4>3+</h4>
+                                    <span>ML<br>Projects</span>
+                                </div>
+                                <div class="stat-item">
+                                    <h4>24h</h4>
+                                    <span>Response</span>
+                                </div>
+                                <div class="stat-item">
+                                    <h4>100%</h4>
+                                    <span>Satisfaction</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="site-footer">
+                <p>&copy; <span id="year"></span> Mukka Rishi Naga Sai. All rights reserved.</p>
+            </footer>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
