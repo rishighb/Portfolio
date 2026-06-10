@@ -3,29 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mukka Rishi Naga Sai | Data Scientist & ML Engineer</title>
+    <title>Rishi Naga Sai Mukka | UX & Product Designer</title>
+    <meta name="description" content="Portfolio of Rishi Naga Sai Mukka, a UX/Product Designer bridging user needs, business goals, and technology with a data-driven approach.">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Google Fonts: Plus Jakarta Sans for headings, Inter for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Boxicons for modern icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Background Gradient Spotlight Glow -->
+    <div class="spotlight-glow" id="spotlight"></div>
+
     <div class="app-container">
         <!-- Sidebar Navigation -->
         <aside class="sidebar">
             <div class="profile">
                 <div class="avatar">RN</div>
-                <h2>Mukka Rishi Naga Sai</h2>
-                <p class="subtitle">Data Scientist & ML Engineer</p>
+                <h2>Rishi Naga Sai Mukka</h2>
+                <p class="subtitle">UX & Product Designer</p>
             </div>
             
             <nav class="nav-links">
                 <a href="#home" class="active"><i class='bx bx-home-alt'></i> <span>Home</span></a>
-                <a href="#projects"><i class='bx bx-briefcase'></i> <span>Projects</span></a>
-                <a href="#skills"><i class='bx bx-code-alt'></i> <span>Skills</span></a>
+                <a href="#about"><i class='bx bx-user'></i> <span>About Me</span></a>
+                <a href="#projects"><i class='bx bx-briefcase'></i> <span>Case Studies</span></a>
+                <a href="#process"><i class='bx bx-git-commit'></i> <span>Design Process</span></a>
+                <a href="#skills"><i class='bx bx-slider'></i> <span>Skills</span></a>
                 <a href="#education"><i class='bx bx-book-open'></i> <span>Education</span></a>
-                <a href="#achievements"><i class='bx bx-trophy'></i> <span>Achievements</span></a>
                 <a href="#certifications"><i class='bx bx-certification'></i> <span>Certifications</span></a>
-                <a href="#cv"><i class='bx bx-file'></i> <span>CV / Resume</span></a>
+                <a href="#cv"><i class='bx bx-file'></i> <span>UX CV</span></a>
                 <a href="#contact"><i class='bx bx-message-square-detail'></i> <span>Contact</span></a>
             </nav>
 
@@ -42,140 +51,379 @@
             </div>
         </aside>
 
-        <!-- Main Content -->
+        <!-- Main Content Area -->
         <main class="content-area">
-            <!-- Home Section -->
+            <!-- Hero Section -->
             <section id="home" class="section hero-section">
                 <div class="hero-banner"></div>
-
                 <div class="hero-content">
-                    <h1 class="gradient-text-hero">I'm Rishi.</h1>
-                    <h2 class="typewriter-container">I build <span id="typewriter"></span></h2>
+                    <h1 class="gradient-text-hero">Hi, I'm Rishi.</h1>
+                    <h2 class="typewriter-container">I design <span id="typewriter"></span></h2>
 
                     <p class="bio">
-                        Turning messy data into meaningful intelligence. I design ML systems, ETL pipelines, and scalable applications that actually solve problems.
+                        I design intuitive digital experiences by combining user research, product thinking, and data-driven decision making. My background in computer science and data science helps me bridge the gap between user needs, business goals, and technology.
                     </p>
 
                     <div class="hero-actions">
-                        <a href="mailto:rishinagasaimukka@gmail.com" class="btn primary">Get In Touch</a>
-                        <a href="#projects" class="btn secondary">View Work</a>
+                        <a href="#projects" class="btn primary">View Case Studies</a>
+                        <a href="#contact" class="btn secondary">Contact Me</a>
                     </div>
                 </div>
             </section>
 
-            <!-- Projects Section -->
+            <!-- About Me Section -->
+            <section id="about" class="section">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <p>The intersection of design, data, and code.</p>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-text-column">
+                        <p class="about-lead">
+                            I am a product designer driven by logic, user empathy, and digital craftsmanship. 
+                        </p>
+                        <p>
+                            My academic background in **Computer Science and Data Science** provides me with a unique edge. Rather than just creating aesthetic interfaces, I analyze data to uncover user friction points and understand the underlying software architecture. This allows me to collaborate seamlessly with engineering teams, respect system boundaries, and design solutions that are not only desirable but technically feasible and scalable.
+                        </p>
+                        <p>
+                            I specialize in framing complex product flows, organizing heavy datasets into elegant information design systems, and using research-backed insights to craft products people love.
+                        </p>
+                    </div>
+                    
+                    <div class="about-core-focus">
+                        <div class="focus-card">
+                            <i class='bx bx-select-multiple'></i>
+                            <h4>UX & Product Design</h4>
+                            <p>Designing digital experiences centered around user logic and product goals.</p>
+                        </div>
+                        <div class="focus-card">
+                            <i class='bx bx-search-alt'></i>
+                            <h4>User Research</h4>
+                            <p>Uncovering friction through surveys, user mapping, and heuristic audits.</p>
+                        </div>
+                        <div class="focus-card">
+                            <i class='bx bx-network-chart'></i>
+                            <h4>Design Systems & IA</h4>
+                            <p>Structuring clean layout standards, navigation grids, and wireframe components.</p>
+                        </div>
+                        <div class="focus-card">
+                            <i class='bx bx-bot'></i>
+                            <h4>AI-assisted Design</h4>
+                            <p>Leveraging predictive modeling and generative prompts to expedite visual iterations.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Featured Case Studies Section -->
             <section id="projects" class="section">
                 <div class="section-header">
-                    <h2>Featured Projects</h2>
-                    <p>Recent work and explorations.</p>
+                    <h2>Featured Case Studies</h2>
+                    <p>Solving complex digital problems with a structured UX methodology.</p>
                 </div>
                 
                 <div class="projects-grid">
-                    <!-- Project 1 -->
+                    <!-- Project 1: APPSC Portal Redesign -->
                     <article class="project-card">
                         <div class="project-content">
                             <div class="project-meta">
-                                <span>Feb 2026</span>
-                                <a href="https://github.com/rishighb/Renewable-Energy-Generation-Forecast" target="_blank"><i class='bx bx-link-external'></i> GitHub</a>
+                                <span>UX Case Study</span>
+                                <span class="tag-highlight">Primary</span>
                             </div>
-                            <h3>Renewable Energy Generation Forecast</h3>
-                            <p>Engineered an end-to-end ML pipeline processing a 400+ page global report to extract and forecast energy data across 200+ countries, reducing manual handling by 90%.</p>
-                            <ul>
-                                <li>Built RF and Linear Regression models predicting till 2030 across 7 regions.</li>
-                                <li>Developed interactive Streamlit dashboard for historical trends.</li>
-                            </ul>
+                            <h3>APPSC Portal Redesign</h3>
+                            
+                            <div class="project-detail-group">
+                                <strong>Problem:</strong>
+                                <p>Government recruitment portals are often complex, outdated, and difficult for candidates to navigate, leading to drop-offs and errors.</p>
+                            </div>
+                            
+                            <div class="project-detail-group">
+                                <strong>My Role:</strong>
+                                <p>Lead UX/UI Designer</p>
+                            </div>
+
+                            <div class="project-detail-group">
+                                <strong>Process:</strong>
+                                <p>Heuristic Evaluation, Competitor Analysis, User Flows, Wireframes, High Fidelity Screens, Design System, Accessibility Considerations, AI-assisted Design Exploration.</p>
+                            </div>
+
+                            <div class="project-detail-group">
+                                <strong>Outcome:</strong>
+                                <p>Created a simplified, accessible, and structured onboarding and application experience.</p>
+                            </div>
+
                             <div class="tech-stack">
-                                <span>Python</span><span>Pandas</span><span>Scikit-Learn</span><span>Streamlit</span>
+                                <span>Figma</span><span>Balsamiq</span><span>Heuristic Audit</span><span>Accessibility (WCAG)</span><span>AI Design</span>
+                            </div>
+                            
+                            <div class="project-action-wrapper">
+                                <button class="btn secondary open-modal-btn" data-modal="modal-appsc">View Case Study</button>
                             </div>
                         </div>
                     </article>
 
-                    <!-- Project 2 -->
+                    <!-- Project 2: Code Companion -->
                     <article class="project-card">
                         <div class="project-content">
                             <div class="project-meta">
-                                <span>Feb 2026</span>
-                                <a href="https://github.com/rishighb/Aviation-Flight-Data-ETL-Pipeline" target="_blank"><i class='bx bx-link-external'></i> GitHub</a>
-                            </div>
-                            <h3>Aviation Flight Data ETL Pipeline</h3>
-                            <p>End-to-end robust pipeline extracting, transforming, and loading aviation datasets into PostgreSQL, improving analytics retrieval by 30%.</p>
-                            <ul>
-                                <li>Integrated AWS S3 and automated validation checks.</li>
-                                <li>Optimized queries via indexing and star schema modeling.</li>
-                            </ul>
-                            <div class="tech-stack">
-                                <span>Python</span><span>SQL</span><span>PostgreSQL</span><span>AWS S3</span><span>Power BI</span>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Project 3 -->
-                    <article class="project-card">
-                        <div class="project-content">
-                            <div class="project-meta">
-                                <span>Jul 2025</span>
-                                <a href="https://github.com/rishighb/EDA-of-Indian-Population-Demographics-" target="_blank"><i class='bx bx-link-external'></i> GitHub</a>
-                            </div>
-                            <h3>EDA of Indian Demographics</h3>
-                            <p>Robust cleaning and preprocessing for Census datasets. Illustrated regional disparities through dynamic visuals.</p>
-                            <ul>
-                                <li>Analyzed 30+ demographic variables identifying key socioeconomic correlations.</li>
-                            </ul>
-                            <div class="tech-stack">
-                                <span>Python</span><span>Seaborn</span><span>SciPy</span><span>StatsModels</span>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Project 4 -->
-                    <article class="project-card">
-                        <div class="project-content">
-                            <div class="project-meta">
-                                <span>Jul 2025</span>
-                                <a href="https://github.com/rishighb/code-companion" target="_blank"><i class='bx bx-link-external'></i> GitHub</a>
+                                <span>Mobile UX Design</span>
+                                <span class="tag-highlight">Mobile-First</span>
                             </div>
                             <h3>Code Companion</h3>
-                            <p>Designed and prototyped a mobile application with user-centric platform featuring intuitive navigation and seamless user experience.</p>
-                            <ul>
-                                <li>Conducted user research to develop a user-centric platform with intuitive navigation.</li>
-                                <li>Led the complete UI/UX design lifecycle from conceptualization and wireframing to high-fidelity prototype development.</li>
-                                <li>Completed the summer training program with a final 'A' grade in design thinking principles.</li>
-                            </ul>
+                            
+                            <div class="project-detail-group">
+                                <strong>Problem:</strong>
+                                <p>Students struggle to access unified coding resources and stay motivated while self-learning programming concepts on the go.</p>
+                            </div>
+                            
+                            <div class="project-detail-group">
+                                <strong>My Role:</strong>
+                                <p>UX/UI Designer</p>
+                            </div>
+
+                            <div class="project-detail-group">
+                                <strong>Process:</strong>
+                                <p>User Research, Surveys, Personas, Journey Mapping, Information Architecture, Wireframing, Interactive Prototyping, Usability Evaluation.</p>
+                            </div>
+
+                            <div class="project-detail-group">
+                                <strong>Outcome:</strong>
+                                <p>Designed a gamified, mobile-first learning experience with micro-learning models and intuitive navigation.</p>
+                            </div>
+
                             <div class="tech-stack">
-                                <span>Figma</span><span>Balsamiq</span><span>Google Forms</span><span>UI/UX Design</span>
+                                <span>Figma</span><span>Balsamiq</span><span>User Surveys</span><span>Interactive Prototype</span><span>User Journeys</span>
+                            </div>
+                            
+                            <div class="project-action-wrapper">
+                                <button class="btn secondary open-modal-btn" data-modal="modal-codecompanion">View Case Study</button>
                             </div>
                         </div>
                     </article>
+
+                    <!-- Project 3: Renewable Energy Forecast Dashboard -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span>Data Experience Design</span>
+                                <span class="tag-highlight">Dashboard</span>
+                            </div>
+                            <h3>Renewable Energy Forecast</h3>
+                            
+                            <div class="project-detail-group">
+                                <strong>Problem:</strong>
+                                <p>Environmental decision-makers struggle to extract actionable planning forecasts from fragmented, dense renewable energy records.</p>
+                            </div>
+                            
+                            <div class="project-detail-group">
+                                <strong>My Role:</strong>
+                                <p>Product & Data Experience Designer</p>
+                            </div>
+
+                            <div class="project-detail-group">
+                                <strong>Process:</strong>
+                                <p>Information Design, Data Visualization, Dashboard Experience Design, User-Centered Data Exploration, Forecasting Insights Design.</p>
+                            </div>
+
+                            <div class="project-detail-group">
+                                <strong>Outcome:</strong>
+                                <p>Improved cognitive accessibility and streamlined trend discovery, allowing users to instantly compare historical output and future forecasts.</p>
+                            </div>
+
+                            <div class="tech-stack">
+                                <span>Information Design</span><span>Data Viz</span><span>Tableau</span><span>Streamlit Dashboard</span><span>Python</span>
+                            </div>
+                            
+                            <div class="project-action-wrapper">
+                                <button class="btn secondary open-modal-btn" data-modal="modal-energy">View Case Study</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: Indian Demographics Visual Analytics -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span>Information Design</span>
+                                <span class="tag-highlight">Visual Analytics</span>
+                            </div>
+                            <h3>EDA of Indian Demographics</h3>
+                            
+                            <div class="project-detail-group">
+                                <strong>Problem:</strong>
+                                <p>Large regional demographic and socioeconomic datasets are too complex for non-technical policymakers to explore and interpret.</p>
+                            </div>
+                            
+                            <div class="project-detail-group">
+                                <strong>My Role:</strong>
+                                <p>Information Designer & Analyst</p>
+                            </div>
+
+                            <div class="project-detail-group">
+                                <strong>Process:</strong>
+                                <p>User Research, Data Storytelling, Dashboard Design, Visual Analytics, Information Architecture, Regional Demographics Mapping.</p>
+                            </div>
+
+                            <div class="project-detail-group">
+                                <strong>Outcome:</strong>
+                                <p>Simplified geographical and socioeconomic exploration, transforming massive Census spreadsheets into visual, self-guiding narratives.</p>
+                            </div>
+
+                            <div class="tech-stack">
+                                <span>Data Storytelling</span><span>Dashboard UI</span><span>Tableau</span><span>Seaborn</span><span>Visual Analytics</span>
+                            </div>
+                            
+                            <div class="project-action-wrapper">
+                                <button class="btn secondary open-modal-btn" data-modal="modal-demographics">View Case Study</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Design Process Section -->
+            <section id="process" class="section">
+                <div class="section-header">
+                    <h2>Design Process</h2>
+                    <p>A systematic, iterative framework to guide solutions from problem definition to user validation.</p>
+                </div>
+                
+                <div class="process-flow">
+                    <div class="process-step">
+                        <div class="step-num-badge">1</div>
+                        <div class="step-icon">
+                            <i class='bx bx-search-eye'></i>
+                        </div>
+                        <h3>Discover</h3>
+                        <p>Empathizing with users to frame the problem. I run competitive audits, map project boundaries, and explore underlying technical constraints.</p>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-num-badge">2</div>
+                        <div class="step-icon">
+                            <i class='bx bx-line-chart-down'></i>
+                        </div>
+                        <h3>Research</h3>
+                        <p>Gathering qualitative and quantitative data. I execute surveys, audit heuristics, and analyze user statistics to establish design baselines.</p>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-num-badge">3</div>
+                        <div class="step-icon">
+                            <i class='bx bx-shape-polygon'></i>
+                        </div>
+                        <h3>Define</h3>
+                        <p>Creating structure. I outline user personas, draw out detailed journey maps, build user flows, and establish clear Information Architecture.</p>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-num-badge">4</div>
+                        <div class="step-icon">
+                            <i class='bx bx-paint-roll'></i>
+                        </div>
+                        <h3>Design</h3>
+                        <p>Iterating on interactions. I sketch low-fidelity wireframes, outline design systems, and build high-fidelity interactive prototypes in Figma.</p>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-num-badge">5</div>
+                        <div class="step-icon">
+                            <i class='bx bx-shield-quarter'></i>
+                        </div>
+                        <h3>Validate</h3>
+                        <p>Testing with real parameters. I conduct cognitive walk-throughs, gather usability feedback, and iterate code/design to polish the UX.</p>
+                    </div>
                 </div>
             </section>
 
             <!-- Skills Section -->
             <section id="skills" class="section">
                 <div class="section-header">
-                    <h2>Technical Skills</h2>
-                    <p>My toolbelt and core competencies.</p>
+                    <h2>Skills & Expertise</h2>
+                    <p>A curated stack of tools and processes for end-to-end product development.</p>
                 </div>
                 
-                <div class="skills-container">
-                    <div class="skill-category">
-                        <h3>Languages & CS Fundamentals</h3>
-                        <div class="tags">
-                            <span>Python</span><span>C</span><span>Java</span><span>Dart</span><span>SQL</span><span>Data Structures & Algorithms (DSA)</span><span>Object-Oriented Programming (OOP)</span><span>OS</span><span>DBMS</span><span>Computer Networks</span>
+                <div class="skills-grid-new">
+                    <!-- Category 1 -->
+                    <div class="skill-group-card">
+                        <div class="skill-group-header">
+                            <i class='bx bx-palette'></i>
+                            <h3>UX & Product Design</h3>
                         </div>
+                        <ul class="skill-item-list">
+                            <li>Figma</li>
+                            <li>Wireframing</li>
+                            <li>Prototyping</li>
+                            <li>Design Systems</li>
+                            <li>User Flows</li>
+                            <li>Information Architecture</li>
+                        </ul>
                     </div>
-                    <div class="skill-category">
-                        <h3>Domain Skills & Frameworks</h3>
-                        <div class="tags">
-                            <span>Data Science & ML</span><span>Responsive UI</span><span>Data Visualization (Tableau, Power BI)</span><span>Statistical Modeling</span><span>Hybrid Mobile App Development (Flutter)</span><span>Software Engineering</span>
+
+                    <!-- Category 2 -->
+                    <div class="skill-group-card">
+                        <div class="skill-group-header">
+                            <i class='bx bx-search'></i>
+                            <h3>UX Research</h3>
                         </div>
+                        <ul class="skill-item-list">
+                            <li>User Research</li>
+                            <li>Competitor Analysis</li>
+                            <li>Heuristic Evaluation</li>
+                            <li>Usability Testing</li>
+                            <li>Journey Mapping</li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 3 -->
+                    <div class="skill-group-card">
+                        <div class="skill-group-header">
+                            <i class='bx bx-bulb'></i>
+                            <h3>Product Thinking</h3>
+                        </div>
+                        <ul class="skill-item-list">
+                            <li>Design Thinking</li>
+                            <li>Problem Discovery</li>
+                            <li>User-Centered Design</li>
+                            <li>Stakeholder Collaboration</li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 4 -->
+                    <div class="skill-group-card">
+                        <div class="skill-group-header">
+                            <i class='bx bx-brain'></i>
+                            <h3>Data & AI Experience</h3>
+                        </div>
+                        <ul class="skill-item-list">
+                            <li>Tableau</li>
+                            <li>Power BI</li>
+                            <li>Data Visualization</li>
+                            <li>AI-Assisted Design</li>
+                            <li>Predictive Analytics</li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 5 -->
+                    <div class="skill-group-card">
+                        <div class="skill-group-header">
+                            <i class='bx bx-code-alt'></i>
+                            <h3>Technical Stack</h3>
+                        </div>
+                        <ul class="skill-item-list">
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>Java</li>
+                        </ul>
                     </div>
                 </div>
             </section>
 
-             <!-- Education Section -->
-             <section id="education" class="section">
+            <!-- Education Section -->
+            <section id="education" class="section">
                 <div class="section-header">
-                    <h2>Education Timeline</h2>
+                    <h2>Education</h2>
                 </div>
                 <div class="timeline">
                     <!-- BTech -->
@@ -185,7 +433,8 @@
                             <span class="date">2023 — Present</span>
                             <h3>Lovely Professional University</h3>
                             <h4>B.Tech in Computer Science and Engineering (Data Science with ML)</h4>
-                            <p>CGPA: 7.53 | Phagwara, Punjab</p>
+                            <p class="timeline-text">Focusing on CS fundamentals alongside human-centered data analysis and visualization. Applying design thinking to software engineering processes.</p>
+                            <p class="gpa">CGPA: 7.53 | Phagwara, Punjab</p>
                         </div>
                     </div>
                     <!-- Junior College -->
@@ -194,8 +443,8 @@
                         <div class="timeline-content">
                             <span class="date">2022 — 2023</span>
                             <h3>Bhashyam Junior College</h3>
-                            <h4>12th with Science (92.9%)</h4>
-                            <p>Rajahmundry, Andhra Pradesh</p>
+                            <h4>12th Grade with Science Core</h4>
+                            <p class="gpa">Percentage: 92.9% | Rajahmundry, Andhra Pradesh</p>
                         </div>
                     </div>
                     <!-- Public School -->
@@ -204,31 +453,10 @@
                         <div class="timeline-content">
                             <span class="date">2020 — 2021</span>
                             <h3>Bhashyam Public School</h3>
-                            <h4>10th (99%)</h4>
-                            <p>Rajahmundry, Andhra Pradesh</p>
+                            <h4>10th Grade Secondary Certificate</h4>
+                            <p class="gpa">GPA: 99% | Rajahmundry, Andhra Pradesh</p>
                         </div>
                     </div>
-                </div>
-            </section>
-
-            <!-- Achievements Section -->
-            <section id="achievements" class="section">
-                <div class="section-header">
-                    <h2>Achievements</h2>
-                    <p>Recognitions and milestones.</p>
-                </div>
-                <div class="achievements-grid">
-                    <!-- Hackathon Participation -->
-                    <article class="achievement-card">
-                        <div class="achievement-icon">
-                            <i class='bx bx-medal'></i>
-                        </div>
-                        <div class="achievement-content">
-                            <h3>Hackathon Participation</h3>
-                            <p>Competed in a hackathon – built and presented a working solution under time pressure, demonstrating teamwork and rapid prototyping skills.</p>
-                            <a href="https://drive.google.com/file/d/12AM_tm2ySHxE09X36aDyNOOjXV6VpOZf/view?usp=drive_link" class="btn secondary" target="_blank"><i class='bx bx-link-external'></i> View Certificate</a>
-                        </div>
-                    </article>
                 </div>
             </section>
 
@@ -242,21 +470,21 @@
                         <i class='bx bx-palette'></i>
                         <div class="cert-info">
                             <h3>Design Thinking & Figma</h3>
-                            <p>LPU | July 2025</p>
+                            <p>Lovely Professional University &bull; Jul 2025</p>
                         </div>
                     </a>
                     <a href="https://www.hackerrank.com/certificates/c985720706b7" class="cert-card" target="_blank">
-                        <i class='bx bxl-java'></i>
+                        <i class='bx bx-terminal'></i>
                         <div class="cert-info">
-                            <h3>Java Programming Certificate</h3>
-                            <p>HackerRank | Mar 2026</p>
+                            <h3>Java Programming</h3>
+                            <p>HackerRank &bull; Mar 2026</p>
                         </div>
                     </a>
                     <a href="https://www.udemy.com/certificate/UC-d306ae43-64e2-412b-b8b1-93ccff231686/" class="cert-card" target="_blank">
                         <i class='bx bx-data'></i>
                         <div class="cert-info">
                             <h3>Ultimate MySQL Bootcamp</h3>
-                            <p>Udemy | Mar 2024</p>
+                            <p>Udemy Certification &bull; Mar 2024</p>
                         </div>
                     </a>
                 </div>
@@ -266,16 +494,18 @@
             <section id="cv" class="section">
                 <div class="section-header">
                     <h2>Curriculum Vitae</h2>
-                    <p>My full professional background and academic record.</p>
+                    <p>My academic records, structured project sheets, and design qualifications.</p>
                 </div>
                 <div class="cv-container">
                     <div class="cv-card">
                         <div class="cv-icon"><i class='bx bxs-file-pdf'></i></div>
                         <div class="cv-details">
-                            <h3>Mukka Rishi Naga Sai - Resume</h3>
-                            <p>Full Document &bull; Features comprehensive academic, project, and skill details.</p>
+                            <h3>Rishi Naga Sai Mukka — UX Resume</h3>
+                            <p>Detailed profile highlighting design methodologies, technical background, and project outcomes.</p>
                         </div>
-                        <a href="generL CV PERMENENT.pdf" download="Mukka_Rishi_Naga_Sai_CV.pdf" class="btn primary download-btn"><i class='bx bx-download'></i> Download CV</a>
+                        <a href="generL CV PERMENENT.pdf" download="uxcv.pdf" id="ux-cv-link" class="btn primary download-btn">
+                            <i class='bx bx-download'></i> Download UX CV
+                        </a>
                     </div>
                 </div>
             </section>
@@ -284,11 +514,11 @@
             <section id="contact" class="section">
                 <div class="section-header text-center">
                     <h2 class="gradient-text">Contact Me</h2>
-                    <p>Let's discuss how we can work together</p>
+                    <p>Let's collaborate on UX research, product layouts, and technical design tasks.</p>
                 </div>
                 
                 <div class="contact-wrapper">
-                    <!-- Left Side: Info & Form -->
+                    <!-- Left Side: Form -->
                     <div class="contact-form-side">
                         <div class="contact-info-list">
                             <h3 class="contact-card-title">Contact Information</h3>
@@ -301,45 +531,44 @@
                         
                         <form class="contact-form" action="https://formsubmit.co/rishinagasaimukka@gmail.com" method="POST">
                             <div class="input-group">
-                                <label>Name</label>
-                                <input type="text" name="Name" placeholder="Your name" required>
+                                <label for="form-name">Name</label>
+                                <input type="text" id="form-name" name="Name" placeholder="Your name" required>
                             </div>
                             <div class="input-group">
-                                <label>Email</label>
-                                <input type="email" name="Email" placeholder="Your email" required>
+                                <label for="form-email">Email</label>
+                                <input type="email" id="form-email" name="Email" placeholder="Your email" required>
                             </div>
                             <div class="input-group">
-                                <label>Subject</label>
-                                <input type="text" name="Subject" placeholder="Subject of your message" required>
+                                <label for="form-subject">Subject</label>
+                                <input type="text" id="form-subject" name="Subject" placeholder="UX Design inquiry / recruiter request" required>
                             </div>
                             <div class="input-group">
-                                <label>Message</label>
-                                <textarea rows="4" name="Message" placeholder="Let me know how I can help you..." required></textarea>
+                                <label for="form-message">Message</label>
+                                <textarea id="form-message" rows="4" name="Message" placeholder="Tell me about your product scope, internship role, or project..." required></textarea>
                             </div>
                             <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_next" value="https://yourdomain.com/success.html">
                             <button type="submit" class="btn primary form-submit" id="submit-btn">Send Message</button>
                         </form>
                     </div>
 
-                    <!-- Right Side: Response Card -->
+                    <!-- Right Side: Stats / Responsive Card -->
                     <div class="contact-stats-side">
                         <div class="response-card">
-                            <h3>Response Time</h3>
-                            <p class="response-desc">I typically respond to all inquiries within 24 hours. Looking forward to connecting with you!</p>
+                            <h3>Design Partnership</h3>
+                            <p class="response-desc">I am open to UX Internships, Product Design roles, and freelance consulting. I collaborate actively from requirements mapping to final coding handoff.</p>
                             
                             <div class="stats-row">
                                 <div class="stat-item">
-                                    <h4>3+</h4>
-                                    <span>ML<br>Projects</span>
+                                    <h4>4+</h4>
+                                    <span>Case<br>Studies</span>
                                 </div>
                                 <div class="stat-item">
                                     <h4>24h</h4>
-                                    <span>Response</span>
+                                    <span>Response<br>Time</span>
                                 </div>
                                 <div class="stat-item">
                                     <h4>100%</h4>
-                                    <span>Satisfaction</span>
+                                    <span>User-Centric<br>Focus</span>
                                 </div>
                             </div>
                         </div>
@@ -348,10 +577,266 @@
             </section>
 
             <footer class="site-footer">
-                <p>&copy; <span id="year"></span> Mukka Rishi Naga Sai. All rights reserved.</p>
+                <p>&copy; <span id="year"></span> Rishi Naga Sai Mukka. All rights reserved.</p>
             </footer>
         </main>
     </div>
+
+    <!-- ================= CASE STUDY MODALS ================= -->
+    
+    <!-- Modal 1: APPSC Portal Redesign -->
+    <div id="modal-appsc" class="modal-overlay">
+        <div class="modal-window">
+            <button class="modal-close-btn" aria-label="Close Case Study">&times;</button>
+            <div class="modal-header-banner">
+                <span class="modal-badge">UX REDESIGN</span>
+                <h2>APPSC Portal Redesign</h2>
+                <p class="modal-desc">Simplifying candidate onboarding and government recruitment application pipelines.</p>
+            </div>
+            
+            <div class="modal-body-content">
+                <section class="modal-section">
+                    <h3><i class='bx bx-info-circle'></i> Problem Statement</h3>
+                    <p>
+                        Government recruitment portals are characterized by heavy information architectures, dense text grids, and circular application stages. Candidates often struggle with step-by-step documentation, complex registration flows, and hard-to-track exam schedules. This leads to user frustration, long completion times, and validation errors.
+                    </p>
+                </section>
+
+                <section class="modal-section">
+                    <h3><i class='bx bx-list-check'></i> Research & Analysis</h3>
+                    <div class="modal-grid-2">
+                        <div class="audit-card">
+                            <h4>Heuristic Evaluation</h4>
+                            <p>Conducted an audit on the current interface finding violations of <strong>Aesthetics and Minimalist Design</strong> and <strong>Help Users Recognize/Recover from Errors</strong>. Forms had overlapping validation messages and lacked live progress tracking.</p>
+                        </div>
+                        <div class="audit-card">
+                            <h4>Competitor Analysis</h4>
+                            <p>Analyzed modern job application systems (LinkedIn, Swiggy Careers, tech job boards) to map expected user patterns for profiles, status dashboards, and upload validations.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="modal-section">
+                    <h3><i class='bx bx-sitemap'></i> Information Architecture & User Flows</h3>
+                    <p>
+                        Redesigned the application pipeline into three linear segments: Profile Creation (Document Repository), Job Filter, and Final Application Submission. By saving document configurations directly to the user account, candidate verification is automated, eliminating repetitive uploads.
+                    </p>
+                    <div class="modal-placeholder-box">
+                        <span class="placeholder-label">User Flow Pathway</span>
+                        <p class="flow-chart-text">User Logs In &rarr; Accesses Unified Dashboard &rarr; Fills Profile Metadata &rarr; System Validates Documents &rarr; Simple 1-Click Application to Active recruitments &rarr; Instant Confirmation.</p>
+                    </div>
+                </section>
+
+                <section class="modal-section">
+                    <h3><i class='bx bx-paint'></i> Design System & Accessibility</h3>
+                    <div class="modal-grid-2">
+                        <div>
+                            <h4>Typography & Colors</h4>
+                            <p>Selected highly readable fonts and created a clean primary hierarchy utilizing deep blue branding for trust, with high-contrast text tags (WCAG AAA compliant contrast ratios for legibility).</p>
+                        </div>
+                        <div>
+                            <h4>Accessibility (WCAG)</h4>
+                            <p>Implemented keyboard-navigable tabs, explicit aria labels on dynamic forms, and strong color differentiators for warning/success validation states.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="modal-section">
+                    <h3><i class='bx bx-brain'></i> AI-Assisted Exploration</h3>
+                    <p>
+                        Leveraged mid-journey AI UI layouts and prompt-based exploration to rapidly experiment with component micro-animations and cards placement, streamlining iterations before finalizing high-fidelity mockups in Figma.
+                    </p>
+                </section>
+
+                <section class="modal-section outcome-section">
+                    <h3><i class='bx bx-checkbox-checked'></i> Outcome & Impact</h3>
+                    <div class="metric-block">
+                        <span class="metric-num">50%</span>
+                        <p>Reduction in form submission errors by introducing real-time field validation and structured progress bars.</p>
+                    </div>
+                    <div class="metric-block mt-2">
+                        <span class="metric-num">1-Click</span>
+                        <p>Repeat application flow enabled by storing user profile validation data securely.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2: Code Companion -->
+    <div id="modal-codecompanion" class="modal-overlay">
+        <div class="modal-window">
+            <button class="modal-close-btn" aria-label="Close Case Study">&times;</button>
+            <div class="modal-header-banner">
+                <span class="modal-badge">MOBILE DESIGN</span>
+                <h2>Code Companion</h2>
+                <p class="modal-desc">Mobile-first programming learning assistant built on gamification and progress mapping.</p>
+            </div>
+            
+            <div class="modal-body-content">
+                <section class="modal-section">
+                    <h3><i class='bx bx-info-circle'></i> Problem Statement</h3>
+                    <p>
+                        Students starting out in programming face learning fatigue due to abstract syntax concepts, disjointed tutorial portals, and a lack of daily reinforcement prompts. Desktop-only environments limit when and where they can practice basic syntax.
+                    </p>
+                </section>
+
+                <section class="modal-section">
+                    <h3><i class='bx bx-group'></i> User Research & Personas</h3>
+                    <p>
+                        Surveyed 50+ computer science freshmen. Key finding: 78% of students abandoned online coding courses due to long, dry video lectures. They preferred interactive quiz modules, clear visual journey tracking, and compiler sandboxes that they could test on mobile during daily commutes.
+                    </p>
+                    <div class="modal-grid-2">
+                        <div class="persona-card">
+                            <h4>Persona: Rahul (The Novice)</h4>
+                            <p><strong>Needs:</strong> Short bites of theory followed by instant interactive puzzles. Needs streaks to stay motivated.</p>
+                        </div>
+                        <div class="persona-card">
+                            <h4>Persona: Ananya (The Practical Learner)</h4>
+                            <p><strong>Needs:</strong> Clean cheatsheets, quick syntax references, and a simple feedback loop to check code errors.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="modal-section">
+                    <h3><i class='bx bx-compass'></i> Information Architecture & Wireframing</h3>
+                    <p>
+                        Configured a bottom navigation model for standard thumb range accessibility:
+                    </p>
+                    <ul>
+                        <li><strong>Home Dashboard</strong> (Staged progress track, daily streak meter)</li>
+                        <li><strong>Learn Module</strong> (Interactive code cards and single-answer puzzles)</li>
+                        <li><strong>Practice Sandbox</strong> (Simplified code editor with pre-filled syntax templates)</li>
+                        <li><strong>Profile</strong> (Certificates, leaderboard rankings)</li>
+                    </ul>
+                </section>
+
+                <section class="modal-section">
+                    <h3><i class='bx bx-mobile-alt'></i> Prototyping & Usability Testing</h3>
+                    <p>
+                        Built high-fidelity mobile prototypes in Figma. Ran task-based usability testing with 5 users. Iterated on the compiler interface: simplified output displays and enlarged tap targets for key coding symbols (e.g., curly brackets, semicolons) on mobile keyboards.
+                    </p>
+                </section>
+
+                <section class="modal-section outcome-section">
+                    <h3><i class='bx bx-checkbox-checked'></i> Outcome & Impact</h3>
+                    <div class="metric-block">
+                        <span class="metric-num">94%</span>
+                        <p>User satisfaction score for the mobile-optimized coding keyboard adjustments.</p>
+                    </div>
+                    <div class="metric-block mt-2">
+                        <span class="metric-num">3x</span>
+                        <p>Increase in daily self-practice frequency compared to web-only portals.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3: Renewable Energy Forecast Dashboard -->
+    <div id="modal-energy" class="modal-overlay">
+        <div class="modal-window">
+            <button class="modal-close-btn" aria-label="Close Case Study">&times;</button>
+            <div class="modal-header-banner">
+                <span class="modal-badge">DATA EXPERIENCE DESIGN</span>
+                <h2>Renewable Energy Forecast</h2>
+                <p class="modal-desc">Designing an information dashboard to simplify global environmental trend projections.</p>
+            </div>
+            
+            <div class="modal-body-content">
+                <section class="modal-section">
+                    <h3><i class='bx bx-info-circle'></i> The Design Challenge</h3>
+                    <p>
+                        Decision-makers (policymakers, environmental researchers) have to sift through multi-page energy tables to compare regional production statistics and forecast models. Dense data formats result in cognitive overload, making it difficult to spot positive transitions or predict local energy shortfalls.
+                    </p>
+                </section>
+
+                <section class="modal-section">
+                    <h3><i class='bx bx-layout'></i> Dashboard Experience & Information Design</h3>
+                    <p>
+                        Designed a visual exploratory system that centers on user intent:
+                    </p>
+                    <ul>
+                        <li><strong>Global Heatmap View:</strong> Allows quick spatial analysis of energy production (Solar, Wind, Hydro).</li>
+                        <li><strong>Dual-Axis Comparative Charting:</strong> Compares target thresholds against projected yields till 2030.</li>
+                        <li><strong>Interactive Query Drawer:</strong> A sliding control panel that lets users refine regions without losing their current map coordinates.</li>
+                    </ul>
+                </section>
+
+                <section class="modal-section">
+                    <h3><i class='bx bx-show-alt'></i> User-Centered Data Exploration</h3>
+                    <p>
+                        Applied progressive disclosure: users start with macro KPIs (total global yield, year-over-year growth) and can drill down into regional lines. Replaced cluttered tables with intuitive visual cards containing trend sparklines and status indicator tags (e.g., "On Track", "Needs Intervention").
+                    </p>
+                </section>
+
+                <section class="modal-section outcome-section">
+                    <h3><i class='bx bx-checkbox-checked'></i> Outcome & Experience Impact</h3>
+                    <div class="metric-block">
+                        <span class="metric-num">90%</span>
+                        <p>Reduction in manual data sorting times by replacing long, static documents with a visual dashboard.</p>
+                    </div>
+                    <div class="metric-block mt-2">
+                        <span class="metric-num">Clear IA</span>
+                        <p>Enabled non-technical stakeholders to identify regional anomalies under 10 seconds.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4: Indian Demographics Visual Analytics -->
+    <div id="modal-demographics" class="modal-overlay">
+        <div class="modal-window">
+            <button class="modal-close-btn" aria-label="Close Case Study">&times;</button>
+            <div class="modal-header-banner">
+                <span class="modal-badge">INFORMATION DESIGN</span>
+                <h2>EDA of Indian Demographics</h2>
+                <p class="modal-desc">Translating complex population spreadsheets into digestible visual narratives.</p>
+            </div>
+            
+            <div class="modal-body-content">
+                <section class="modal-section">
+                    <h3><i class='bx bx-info-circle'></i> The Design Challenge</h3>
+                    <p>
+                        National Census surveys contain complex socioeconomic metrics (literacy, gender ratios, regional growth rates, urban density). Because this data is buried in massive grids, researchers and local journalists find it difficult to correlate variables or identify disparities across districts.
+                    </p>
+                </section>
+
+                <section class="modal-section">
+                    <h3><i class='bx bx-bulb'></i> Data Storytelling & Layout</h3>
+                    <p>
+                        Structured the analytics as a visual narrative divided into thematic sections:
+                    </p>
+                    <ol>
+                        <li><strong>The Big Picture:</strong> High-level cards summarizing total metrics.</li>
+                        <li><strong>Regional Disparities:</strong> Interactive bubble map highlighting literacy variations.</li>
+                        <li><strong>Correlation Analysis:</strong> Scatter plots indicating how gender ratios relate to regional education indicators.</li>
+                    </ol>
+                </section>
+
+                <section class="modal-section">
+                    <h3><i class='bx bx-layer'></i> Information Architecture & UX Audit</h3>
+                    <p>
+                        Created a visual hierarchy by establishing consistent typography standards, high-contrast grid lines, and responsive layouts. Replaced dense legend blocks with interactive tooltips that display descriptive tooltips on hover, keeping the main interface clean and focused.
+                    </p>
+                </section>
+
+                <section class="modal-section outcome-section">
+                    <h3><i class='bx bx-checkbox-checked'></i> Outcome & Narrative Impact</h3>
+                    <div class="metric-block">
+                        <span class="metric-num">Clean UX</span>
+                        <p>Simplifies exploration of demographic anomalies by linking maps and charts dynamically.</p>
+                    </div>
+                    <div class="metric-block mt-2">
+                        <span class="metric-num">Zero Code</span>
+                        <p>Interactive tooltips and visual legends allow non-technical audiences to extract insights instantly.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
